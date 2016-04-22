@@ -32,10 +32,6 @@
 
 <div id="wrapper">
 
-  <div id="header">
-    <h1>Our Perl Workshop</h1>
-  </div>
-
   <div id="menu">
     [% PROCESS menu %]
   </div>
@@ -45,8 +41,9 @@
   </div>
 
   <div id="footer">
-    Powered by <a href="http://act.mongueurs.net/">Act</a> — A Conference Toolkit
-  | Running on <a href="http://www.freebsd.org">FreeBSD</a>
+    <p>Contanct: apw-orga@googlegroups.com</p>
+    <p>    Powered by <a href="http://act.mongueurs.net/">Act</a> — A Conference Toolkit
+    | Running on <a href="http://www.freebsd.org">FreeBSD</a></p>
   </div>
 
 </div>
