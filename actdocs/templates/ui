@@ -32,8 +32,8 @@
 
 <div id="wrapper">
 
- <div id="header">
-	 <center><strong>Work in Progress</strong></center>
+ <div id="header" style="text-align:center;font-weight: bold; background-color:#ff7777;">
+	 ... work in progress ...
  </div>
 
 
