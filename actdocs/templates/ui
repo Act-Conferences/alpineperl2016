@@ -32,7 +32,15 @@
 
 <div id="wrapper">
 
+ <div id="header">
+	 <center><strong>Work in Progress</strong></center>
+ </div>
+
+
   <div id="menu">
+	  <li><a href="[% make_uri('sponsors.html') %]">Sponsors</a></li>
+	  <li><a href="[% make_uri('call_for_papers.html') %]">Call for Papers</a></li>
+
     [% PROCESS menu %]
   </div>
 
