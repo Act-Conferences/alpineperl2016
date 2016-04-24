@@ -41,6 +41,7 @@
 	  <li><a href="[% make_uri('index.html') %]">Workshop</a></li>
 	  <li><a href="[% make_uri('sponsors.html') %]">Sponsors</a></li>
 	  <li><a href="[% make_uri('call_for_papers.html') %]">Call for Papers</a></li>
+	  <li><a href="https://twitter.com/hashtag/AlpinePerl2016">#AlpinePerl2016</a></li>
 
     [% PROCESS menu %]
   </div>
