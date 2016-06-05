@@ -9,6 +9,8 @@
 <link href="[% make_uri_info('css','bootstrap-3.1.1.min.css') %]" rel="stylesheet" media="screen"/>
 <link rel="stylesheet" type="text/css" href="[% make_uri_info('css','main.css') %]" />
 <link rel="stylesheet" type="text/css" href="[% make_uri_info('css','print.css') %]" media="print" />
+<link rel="stylesheet" type="text/css" href="/css/act-base.css" />
+<link rel="stylesheet" type="text/css" href="/css/schedule.css" />
 <!-- OpenId -->
 [% IF openid %]
 <link rel="openid.server" href="[% global.request.base_url %][% make_uri('openid') %]" />
