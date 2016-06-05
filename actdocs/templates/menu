@@ -1,11 +1,16 @@
-[% FILTER collapse %]
-[% PROCESS menus/user %]
-[% PROCESS menus/users %]
-[% PROCESS menus/news %]
-[% PROCESS menus/wiki %]
-[% PROCESS menus/talks %]
-[% PROCESS menus/events %]
-[% PROCESS menus/treasurer %]
-[% PROCESS menus/admin %]
-[% PROCESS menus/act_confs %]
-[% END %]
+<div class="menu_box">
+  <a href="[% make_uri('index.html') %]"><i class="glyphicon-home"></i>Workshop</a>
+  <a href="[% make_uri('sponsors.html') %]"><i class="glyphicon-cutlery"></i><t><de>Sponsoren</de><en>Sponsors</en> </t> </a>
+  <a href="[% make_uri('call_for_papers.html') %]"><i class="glyphicon-envelope"></i><t><de>Vortrag einreichen</de><en>Call for Papers</en> </t> </a>
+  <!--<a href="[% make_uri('venue.html') %]"><i class="glyphicon-map-marker"></i><t><de>Veranstaltungsort</de><en>Venue</en></t></a>-->
+  <a href="https://twitter.com/hashtag/AlpinePerl2016">#AlpinePerl2016</a>
+</div>
+<div class="menu_box user">[%- PROCESS menus/user | trim -%]</div>
+<div class="menu_box users">[%- PROCESS menus/users | trim -%]</div>
+<div class="menu_box news">[%- PROCESS menus/news | trim -%]</div>
+<div class="menu_box wiki">[%- PROCESS menus/wiki | trim -%]</div>
+<div class="menu_box talks">[%- PROCESS menus/talks | trim -%]</div>
+<div class="menu_box events">[%- PROCESS menus/events | trim -%]</div>
+<div class="menu_box treasurer">[%- PROCESS menus/treasurer | trim -%]</div>
+<div class="menu_box admin">[%- PROCESS menus/admin | trim -%]</div>
+<div class="menu_box act_confs">[%- PROCESS menus/act_confs | trim -%]</div>

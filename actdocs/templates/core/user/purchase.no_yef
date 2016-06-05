@@ -1,0 +1,4 @@
+<t><en>Credit Card payment is not available, sorry...</en><de>Kreditkartenzahlung ist leider nicht verf&uuml;gbar</de></t>
+
+[% file = "core/bank/${global.config.payment_type}" ; PROCESS $file %]
+

@@ -1,0 +1,37 @@
+<t><en>
+
+<h1>Payment by direct money transfer</h1>
+
+<p>Please transfer the appropriate amount of money to this account:
+
+<pre>
+Name:        VIENNA.PM-VEREIN PROGRAMMIERSPRACHE PERL
+IBAN:        AT133200000002776474
+BIC:         RLNWATWW
+Address:     Max Winter Pl.6/32, 1020 Wien, &Ouml;sterreich
+</pre>
+
+Make sure to include <b><code>alpine2016_[% global.request.user.user_id %]</code></b> as the reason for the transcation, so
+we can match up the incoming payment with your user account.
+
+
+</p>
+</en>
+
+<de>
+<h1>&Uuml;berweisung</h1>
+
+<p>Bitte den jeweiligen Betrag auf dieses Konto &uuml;berweisen:
+
+<pre>
+Name:        VIENNA.PM-VEREIN PROGRAMMIERSPRACHE PERL
+IBAN:        AT133200000002776474
+BIC:         RLNWATWW
+Address:     Max Winter Pl.6/32, 1020 Wien, &Ouml;sterreich
+</pre>
+
+Bitte <b><code>alpine2016_[% global.request.user.user_id %]</code></b> als Verwendungszweck angeben.
+
+</de>
+</t>
+

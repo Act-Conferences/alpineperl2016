@@ -1,62 +1,65 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="[% global.request.language %]" xml:lang="[% global.request.language %]">
-
+<html>
 <head>
 <!-- Document Metadata -->
-<meta http-equiv="Content-Language" content="[% global.request.language %]" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="Content-Language" content="en"/>
+<title>[%- IF title -%][% title  %] |[% END %] Alpine Perl Workshop || 2nd & 3rd September 2016 </title>
+<!-- CSS stylesheets -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link href="[% make_uri_info('css','bootstrap-3.1.1.min.css') %]" rel="stylesheet" media="screen"/>
+<link rel="stylesheet" type="text/css" href="[% make_uri_info('css','main.css') %]" />
+<link rel="stylesheet" type="text/css" href="[% make_uri_info('css','print.css') %]" media="print" />
 <!-- OpenId -->
 [% IF openid %]
 <link rel="openid.server" href="[% global.request.base_url %][% make_uri('openid') %]" />
 [% END %]
 <!-- Atom news feed -->
 <link rel="alternate" type="application/atom+xml" title="[% global.conference.name %]"
-      href="[% global.request.base_url %][% make_uri_info( 'atom', global.request.language ) %].xml" />
-[%- IF title -%]<title>[% title  %]</title>[%- END -%]
-
-<!-- CSS Stylesheets -->
-<link rel="stylesheet" type="text/css" href="[% make_uri_info('css', 'style.css') %]" />
-<link rel="stylesheet" type="text/css" href="/css/act-base.css" />
-<link rel="stylesheet" type="text/css" href="/css/schedule.css" />
-
-<!-- JavaScript sugar -->
-<script type="text/javascript" src="/js/jquery.js"></script>
-<script type="text/javascript" src="/js/act.js"></script>
-
-<!-- Favorite icon -->
-<link rel="shortcut icon" type="image/png" href="/favicon.png" />
+    href="[% global.request.base_url %][% make_uri_info( 'atom', global.request.language ) %].xml" />
+    <!-- Favorite icon -->
+    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
 </head>
-
 <body>
-[%- IF title -%]<h1 style="text-align: center;">[% title  %]</h1>[%- END -%]
-
-<div id="wrapper">
-
- <div id="header" style="text-align:center;font-weight: bold; background-color:#ff7777;">
-	 ... work in progress ...
- </div>
-
-
-  <div id="menu">
-	  <li><a href="[% make_uri('index.html') %]">Workshop</a></li>
-	  <li><a href="[% make_uri('sponsors.html') %]">Sponsors</a></li>
-	  <li><a href="[% make_uri('call_for_papers.html') %]">Call for Papers</a></li>
-	  <li><a href="https://twitter.com/hashtag/AlpinePerl2016">#AlpinePerl2016</a></li>
-
-    [% PROCESS menu %]
-  </div>
-
-  <div id="content">
-    [% content %]
-  </div>
-
-  <div id="footer">
-    <p>Contact: apw-orga@googlegroups.com</p>
-    <p>    Powered by <a href="http://act.mongueurs.net/">Act</a> — A Conference Toolkit
-    | Running on <a href="http://www.freebsd.org">FreeBSD</a></p>
-  </div>
-
-</div>
-
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2">
+                <div id="logo">
+                <a href="/alpineperl2016/">
+                    <object type="image/svg+xml" data="[% make_uri_info('images','apw2014-salzburg.svg') %]" ></object>
+                </a>
+                </div>
+                <div id="menu">
+                    [% PROCESS menu %]
+                </div>
+            </div>
+            <div id="content" class="col-md-8">
+                [%- IF title -%]<h1>[% title  %]</h1>[%- END -%]
+                [% content %]
+            </div>
+            <div class="col-md-2">
+                <div id="sponsor">
+                    [% PROCESS sponsors %]
+                </div>
+            </div>
+        </div>
+        <div class="row" id="footer">
+            <div class="col-md-3"></div>
+            <div class="col-md-8">
+                © 2016 Verein 'Vienna.pm - Verein zur Förderung der Programmiersprache Perl'.<br/>
+                To contact the organisers send e-mail to apw-orga@googlegroups.com
+                <br/>
+                <a href="[% make_uri('impressum.html') %]">
+                <t>
+                <en>About</en>
+                <de>Impressum</en>
+                </t>
+                </a>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="[% make_uri_info('js','jquery-1.10.2.min.js') %]"></script>
+    <script type="text/javascript" src="/js/act.js"></script>
+    <script type="text/javascript" src="[% make_uri_info('js','bootstrap-3.1.1.min.js') %]"></script>
 </body>
 </html>
