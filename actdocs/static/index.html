@@ -1,5 +1,7 @@
 [% WRAPPER ui title = global.conference.name %]
 
+<t>
+<en>
 <p>
 This year, Austrian and Swiss Perl Monger groups join forces to host the first <strong>Alpine Perl Workshop</strong>, taking place at the <a href="https://www.uibk.ac.at/">University of Innsbruck</a> on 2nd and 3rd September 2016 (that's a week after YAPC::Europe). Attendance is <strong>free</strong>, though we do offer a voluntary business tariff (90€)
 </p>
@@ -9,6 +11,15 @@ This year, Austrian and Swiss Perl Monger groups join forces to host the first <
 <p>
 Watch this space for updates, or check the <a href="[% global.request.base_url %][% make_uri_info( 'atom', global.request.language ) %].xml">feed</a>.
 </p>
+</en>
+
+<de>
+<p>Dieses Jahr organisieren österreichische und schweizerische Perl Monger gemeinsam den ersten <strong>Alpine Perl Workshop</strong>. Die Veranstaltung findet am 2. und 3. September 2016 in der <a href="https://www.uibk.ac.at/">University Innsbruck</a> statt. Die Teilnahme ist <strong>gratis</strong>, obwohl wir uns über die Zahlung des freiwilligen Business-Tarifs (90€) freuen würden.
+</p>
+
+<p>Wir sind auf der Suche nach <a href="[% make_uri('sponsors.html') %]">Sponsoren</a> und <a href="[% make_uri('call_for_papers.html') %]">Vorträgen</a>!</p>
+
+</d>
 
 [% news = global.news(3);
    IF news.size > 2;
@@ -33,7 +44,7 @@ Watch this space for updates, or check the <a href="[% global.request.base_url %
 
 [% IF more %]
 <p>
- <a href="[% make_uri('news') %]" class="news-link">Older announcements</a>
+<a href="[% make_uri('news') %]" class="news-link"><t><en>Older announcements</en><de>Alte News</de></t></a>
 </p>
 [% END %]
 
