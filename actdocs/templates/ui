@@ -25,7 +25,7 @@
             <div class="col-md-2">
                 <div id="logo">
                 <a href="/alpineperl2016/">
-                    <object type="image/svg+xml" data="[% make_uri_info('images','apw2014-salzburg.svg') %]" ></object>
+                    <img src="[% make_uri_info('images','logo.png') %]" alt="Alpine Perl Workshop" >
                 </a>
                 </div>
                 <div id="menu">
