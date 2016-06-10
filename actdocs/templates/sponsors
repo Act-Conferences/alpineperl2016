@@ -4,6 +4,10 @@
 <a href="http://Perl-Services.de"><img src="[% make_uri_info('images/sponsors','perl_services.png') %]" alt="Perl-Services.de"></a>
 </div>
 
+<div class="sponsor">
+<a href="http://oetiker.ch"><img src="[% make_uri_info('images/sponsors','oetiker.png') %]" alt="Oetiker+Partner"></a>
+</div>
+
 <!--<div class="sponsor">
 <a href="http://www.example.com/"><img src="[% make_uri_info('images/sponsors','example.png') %]" alt="Example Inc"></a>
 </div>
