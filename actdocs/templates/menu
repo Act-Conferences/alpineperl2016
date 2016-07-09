@@ -2,7 +2,7 @@
   <a href="[% make_uri('index.html') %]"><i class="glyphicon-home"></i>Workshop</a>
   <a href="[% make_uri('sponsors.html') %]"><i class="glyphicon-cutlery"></i><t><de>Sponsoren</de><en>Sponsors</en> </t> </a>
   <a href="[% make_uri('call_for_papers.html') %]"><i class="glyphicon-envelope"></i><t><de>Vortrag einreichen</de><en>Call for Papers</en> </t> </a>
-  <!--<a href="[% make_uri('venue.html') %]"><i class="glyphicon-map-marker"></i><t><de>Veranstaltungsort</de><en>Venue</en></t></a>-->
+  <a href="[% make_uri('venue.html') %]"><i class="glyphicon-map-marker"></i><t><de>Veranstaltungsort</de><en>Venue</en></t></a>
   <a href="[% make_uri('accommodation.html') %]"><i class="glyphicon-bed"></i><t><de>Unterkünfte</de><en>Accommodation</en></t></a>
   <a href="https://twitter.com/hashtag/AlpinePerl2016">#AlpinePerl2016</a>
 </div>
