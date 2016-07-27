@@ -13,15 +13,7 @@
 </div>
 
 <div class="sponsor">
-<a href="http://www.perl6.org/"><img src="[% make_uri_info('images/sponsors','camelia-logo.png') %]" alt="Perl 6"></a>
-<p>Camelia is the spokesbug for Perl 6, the spunky fast-growing sister of Perl 5.
-Like her world-famous big sister, Perl 6 intends to carry forward the high
-ideals of the Perl community.</p>
-
-<p>Perl 6 is currently being developed further by a team of dedicated and
-enthusiastic volunteers. You can help too. The only requirement is that you
-know how to be nice to all kinds of people (and butterflies). Go to #perl6
-(irc.freenode.net) and someone will be glad to help you get started.</p>
+<a href="http://www.perl6.org/"><img src="[% make_uri_info('images/sponsors','camelia-logo.png') %]" alt="Perl 6" width=""></a>
 </div>
 
 
