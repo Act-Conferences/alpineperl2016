@@ -4,7 +4,7 @@
   <a href="[% make_uri('call_for_papers.html') %]"><i class="glyphicon-envelope"></i><t><de>Vortrag einreichen</de><en>Call for Papers</en> </t> </a>
   <a href="[% make_uri('venue.html') %]"><i class="glyphicon-map-marker"></i><t><de>Veranstaltungsort</de><en>Venue</en></t></a>
   <a href="[% make_uri('accommodation.html') %]"><i class="glyphicon-bed"></i><t><de>Unterkünfte</de><en>Accommodation</en></t></a>
-  <a href="[% make_uri('code_of_conduct.html') %]"><i class="glyphicon-handshake"></i>Code of Conduct</a>
+  <a href="[% make_uri('code_of_conduct.html') %]"><i class="glyphicon-thumbs-up"></i>Code of Conduct</a>
   <a href="https://twitter.com/hashtag/AlpinePerl2016">#AlpinePerl2016</a>
 </div>
 <div class="menu_box user">[%- PROCESS menus/user | trim -%]</div>
