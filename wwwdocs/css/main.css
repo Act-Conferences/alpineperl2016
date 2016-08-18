@@ -3,7 +3,7 @@
 body {
     /* TODO: find a nice Innsbruck background image */
        background: linear-gradient( rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.93)),
-        url("http://paradiseintheworld.com/wp-content/uploads/2012/04/salzburg-austria.jpg") repeat-y scroll 0 0;
+        url("/alpineperl2016/images/background.png") repeat-y scroll 200 0;
     background-size: 100%;
     
 }
