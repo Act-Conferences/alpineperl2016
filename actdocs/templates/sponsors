@@ -1,6 +1,10 @@
 <h2><t><de>Sponsoren</de><en>Sponsors</en></t></h2>
 
 <div class="sponsor">
+<a href="http://www.booking.com/"><img src="[% make_uri_info('images/sponsors','booking.png') %]" alt="booking.com"></a>
+</div>
+
+<div class="sponsor">
 <a href="http://www.mycontrol.de/"><img src="[% make_uri_info('images/sponsors','myc-logo.png') %]" alt="MyControl"></a>
 </div>
 
