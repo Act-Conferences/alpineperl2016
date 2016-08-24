@@ -10,7 +10,7 @@ Over 13,000 people all over the world are dedicated to serving Booking.com’s c
 Our technical culture derives strongly from our strong ties to the Perl community. We appreciate what open source means both for our business and also for internal projects.
 We are looking for Developers, MySQL DBAs, System Administrators, Architects and Designers. 
 Please check out www.workingatbooking.com/technology for all possibilities.">
-     <img src="[% make_uri_info('images/sponsors','booking.png') %]" alt="booking.com"></a>
+<img src="[% make_uri_info('images/sponsors','booking.png') %]" alt="booking.com"></a>
 </div>
 
 <div class="sponsor">
